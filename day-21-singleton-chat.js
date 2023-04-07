@@ -22,7 +22,7 @@ class Chat {
     
     sendMessage(message){
         this.users.forEach(user => user.receiveMessage(message))
-    }
+    }or
     
     addUser(user){
         if (user instanceof User) {
