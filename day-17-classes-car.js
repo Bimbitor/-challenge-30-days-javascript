@@ -26,22 +26,10 @@ class Car {
 }
 
 
-
-
-
-
-
-
-
 const toyota = new Auto("Toyota", "Corolla", 2020, 0);
 toyota.turnOn();
 toyota.drive(100);
 toyota.mileage
-
-
-
-
-
 
 
 toyota.turnOff()
